@@ -1,5 +1,4 @@
-//Write a program to Print Armstrong numbers in a range
-
+// Write a program to Print Armstrong numbers in a range
 
 #include <stdio.h>
 
@@ -8,7 +7,7 @@ int main()
     int start, end, n, temp, rem, sum;
 
     printf("Enter the start number:");
-    scanf("%d", &start);
+    scanf("%d",&start);
 
     printf("Enter the end number:");
     scanf("%d",&end);
