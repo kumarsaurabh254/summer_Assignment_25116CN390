@@ -3,11 +3,11 @@
 #include<stdio.h>
 int main()
 {
-    int arr[10];
+    int arr[100];
 
     for(int i = 0 ; i< 10 ; i++)
     {
-        printf("Enter the array elements %d:",i+1);
+        printf("Enter the array elements %d :",i+1);
         scanf("%d",&arr[i]);
 
 
