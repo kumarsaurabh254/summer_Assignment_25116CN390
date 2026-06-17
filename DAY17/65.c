@@ -1,0 +1,36 @@
+//Write a program to merge an array
+
+#include<stdio.h>
+int main()
+{
+    int arr1[] ={1,2,3};
+    int arr2[]={4,5,6};
+
+
+   
+    int  n1 =3;
+    int  n2 =3;
+    int merged[n1 + n2];
+
+    
+
+
+    for(int i=0; i< n1;i++)
+    {
+        merged[i]=arr1[i];
+    }
+
+    for(int i = 0; i< n2; i++)
+    {
+        merged[n1 + i] = arr2[i];
+    }
+
+    printf("The Merged Array is:");
+
+    for (int i = 0;i < n1+n2; i++)
+    {
+        printf("%d ",merged[i]);
+    }
+
+    return 0;
+}
